@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Outfit:wght@700&display=swap" rel="stylesheet">
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Frontend Mentor | QR code component</title>
+    <style>
+        body{
+            background-color:  hsl(212, 45%, 89%)
+        }
+        #container{
+            margin: 100px auto auto auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 0.7rem;
+            border-color: hsl(0, 0%, 100%);
+            max-width: 290px;
+            max-height: 440px;
+            background-color: hsl(0, 0%, 100%);
+        }
+        #image{
+            border-radius: 0.5rem;
+            width: 250px;
+            margin-top: 0.7rem;
+        }
+    #container p:nth-child(2) {      
+      text-align: center;
+      margin: 0.rem 0.5rem;
+      
+      font-family: 'Big Shoulders Display', cursive;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    #container p:nth-child(3) {
+      bottom: 3rem;
+      margin-top: 0px;
+
+      font-weight: 400;
+      margin-left: 1.2rem;
+      margin-right: 1.2rem;
+      font-size: 14px;
+      text-align: center;
+      color: hsl(207, 5%, 60%);
+      font-family: 'Big Shoulders Display', cursive;
+      font-family: 'Outfit', sans-serif;
+    }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin-top: 0.9rem;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main id="container">
+      <img
+        id="image"
+        src="../QR-code-component/images/image-qr-code.png"
+        alt="img here"
+      />
+      <p>Improve your front-end skills by building projects</p>
+
+      <p>
+        Scan the QR code to visit Frontend Mentor and take your coding skills to
+        the next level
+      </p>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Korede</a>.
+    </div>
+  </body>
+</html>
